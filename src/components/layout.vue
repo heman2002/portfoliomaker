@@ -69,6 +69,15 @@ export default {
       .catch(function (error) {
         console.log(error)
       })
+      axios.post('http://api.html2pdfrocket.com/pdf?value=http://http://localhost:9000/#/&apikey=45499f30-b524-45cc-9ac9-03bdf6d5dd88', {
+
+      })
+      .then(function (response) {
+        console.log(response)
+      })
+      .catch(function (error) {
+        console.log(error)
+      })
     }
   }
 }
